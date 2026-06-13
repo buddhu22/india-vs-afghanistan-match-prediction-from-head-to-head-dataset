@@ -9,7 +9,7 @@
 
 A comprehensive, portfolio-quality Machine Learning project that predicts the outcomes of India vs Afghanistan ODI matches.
 
-## 🎯 Features
+##  Features
 - **Match Winner Prediction:** Predicts the winner based on venue, toss, form, and team strength.
 - **Winning Probability:** Outputs confidence scores.
 - **Top Performers:** Predicts the Highest Run Scorer and Highest Wicket Taker.
@@ -17,7 +17,7 @@ A comprehensive, portfolio-quality Machine Learning project that predicts the ou
 - **Explainable AI (SHAP):** Visualizes exactly *why* a specific team is predicted to win.
 - **Interactive UI:** A modern, dark-themed cricket dashboard built with Streamlit.
 
-## 📁 Project Structure
+##  Project Structure
 ```text
 ├── app/
 │   └── main.py                  # Streamlit Web Application
@@ -34,32 +34,9 @@ A comprehensive, portfolio-quality Machine Learning project that predicts the ou
 └── README.md                    # Project documentation
 ```
 
-## 🧠 Machine Learning Pipeline
+##  Machine Learning Pipeline
 - **Models Trained:** Logistic Regression, Random Forest, Gradient Boosting, XGBoost, LightGBM, CatBoost, and a Soft Voting Ensemble.
 - **Evaluation Metrics:** Accuracy, Precision, Recall, F1-Score, ROC-AUC.
 - **Feature Engineering:** Venue advantage, toss influence, recent form indexes, H2H record, average scores, and batting/bowling strength indicators.
-
-## 🚀 How to Run Locally
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Generate the data and train the models:
-   ```bash
-   python generate_synthetic_data.py
-   python src/data_pipeline.py
-   python src/train_pipeline.py
-   ```
-4. Start the Streamlit app:
-   ```bash
-   streamlit run app/main.py
-   ```
-
-## 🌐 Deployment Guide (Streamlit Cloud)
-To deploy this application to production:
-1. Push this entire project folder to a public or private GitHub repository.
-2. Go to [Streamlit Community Cloud](https://share.streamlit.io/).
-3. Click "New app" and connect your GitHub account.
 4. Select the repository, branch, and set the Main file path to `app/main.py`.
 5. Click **Deploy!** The app will automatically read `requirements.txt`, install dependencies, and launch.
