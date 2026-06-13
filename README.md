@@ -7,7 +7,7 @@
 ![LightGBM](https://img.shields.io/badge/LightGBM-ff69b4?style=for-the-badge)
 ![CatBoost](https://img.shields.io/badge/CatBoost-yellow?style=for-the-badge)
 
-A comprehensive, portfolio-quality Machine Learning project that predicts the outcomes of India vs Afghanistan ODI matches.
+A comprehensive, Machine Learning project that predicts the outcomes of India vs Afghanistan ODI matches.
 
 ##  Features
 - **Match Winner Prediction:** Predicts the winner based on venue, toss, form, and team strength.
