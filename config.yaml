@@ -1,0 +1,17 @@
+title: Cricket Match Prediction System
+version: 1.0.0
+description: AI-powered India vs Afghanistan Cricket Match Predictor
+author: Senior Data Scientist
+theme: dark
+dataset: 
+  source: synthetic_expansion
+  base: ind_vs_afg_complete.csv
+models:
+  - Logistic Regression
+  - Random Forest
+  - XGBoost
+  - LightGBM
+  - CatBoost
+  - Voting Ensemble
+deployment:
+  platform: Streamlit Cloud
